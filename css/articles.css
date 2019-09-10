@@ -1,0 +1,175 @@
+
+
+body
+{
+    font-family: 'Amiri', serif;
+    direction: rtl;
+}
+.clear{
+    clear: both;
+}
+
+
+.logo-brand{
+    width: 230px;
+    height: 80px;
+    overflow: auto;
+    
+    
+}
+
+
+
+.navbar{
+    background-color: #fff;
+    color: #fff;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.nav-item a{
+    text-decoration: none;
+    color: #00868d;
+}
+.nav-item a:hover{
+    background-color: #00868d;
+    color: #fbca1b;
+}
+
+
+#main-article
+ {
+     background-color: #f5f5f5;
+ }
+
+ 
+#main-article p 
+{
+    font-size: 24px ;
+}
+
+.main-img
+{
+    background-color: tomato;
+}
+
+
+.article-item{
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+ .article-item .article-overlay{
+    background-color: rgba(0, 33, 71, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    transform: scale(0.9);
+    transition: all 0.7s ease 0.35s; 
+    
+}
+ .article-item:hover .article-overlay{
+    bottom: 0;
+}
+ .article-item .article-info{
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scale(0.9);
+    transition: all 0.7s ease 0.35s;
+    
+        
+}
+.article-item:hover .article-info{
+    
+    
+    
+    bottom: -100%;
+}
+
+
+
+
+footer{
+    margin-top: 5px;
+    border-top: 1px dashed #ccc;
+}
+footer .social i{
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: all 0.25s ;
+}
+footer .social i:hover{
+    transform: scale(1.1);
+    
+
+}
+footer .social .facebook{
+      padding: 15px 18px;
+    background-color: #6982b8;
+}
+footer .social .google-plus{
+      padding: 15px 13px;
+    background-color: #ff8a8e;
+}
+footer .social .linkedin{
+      padding: 15px;
+    background-color: #88d0e1;
+}
+footer .social .twitter{
+      padding: 15px;
+    background-color: #1b95e0;
+}
+
+.footer-menu a{
+    text-decoration:none; 
+    font-size: 16px;
+    font-weight: 800;
+    color: #666;
+    padding: 15px
+    
+}
+@media screen and (max-width:768px){
+    .footer-menu a{
+        font-size: 12px;
+        padding: 10px
+    }
+    
+}
+@media screen and (max-width:530px){
+    .footer-menu a{
+        font-size: 10px;
+        padding: 5px
+    }
+    
+}
+
+
+
+
+.footer-menu a:hover{
+    
+    color: #00868d;
+}
+footer .copyright{
+    font-size: 14px;
+    background-color: #f5f5f5;
+}
+footer .copyright .nm{
+    color: #00868d;
+    
+}
+footer .copyright .yr{
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+    margin-right: 5px;
+}
+
+
+ 
