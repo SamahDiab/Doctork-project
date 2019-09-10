@@ -41,9 +41,13 @@ $("#secondItem").click(function(){
 });
 
 $("#inputFamous").click(function(){
-  $(".drugs_kind").slideDown(1000);  
-})
-
-$("#inputDiss").click(function(){
-    $(".drugs_diss").slideDown(1000);
-})
+    $(".drugs_diss").hide(1000 , function(){
+       $(".drugs_kind").slideDown(1000); 
+    });  
+  })
+  
+  $("#inputDiss").click(function(){
+      $(".drugs_kind").hide(1000 , function(){
+        $(".drugs_diss").slideDown(1000);  
+      });
+  })
