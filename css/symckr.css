@@ -1,0 +1,224 @@
+body
+{
+    font-family: 'Amiri', serif;
+    direction: rtl;
+    font-weight: 900;
+}
+
+
+/* navigation */
+
+.logo-brand{
+    width: 230px;
+    height: 80px;
+    overflow: auto;
+    
+    
+}
+.navbar{
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    color: #fff;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.nav-item{
+    overflow: auto;
+}
+.nav-item ul li{
+    float: right;
+}
+.nav-item a{
+    
+    text-decoration: none;
+    color: #00868d;
+}
+.nav-item a:hover{
+    background-color: #00868d;
+    color: #fbca1b;
+}
+
+/* end navigation */
+
+/* start symptom*/
+
+/*start symptom_checker of diseaes */
+
+.symptom_checker ul li .nav-link{
+    text-decoration: none;
+    color: #00868d;
+}
+.card-header ul li a:hover {
+    background-color: #00868d;
+    color: #fbca1b
+}
+.sympo_inputs{
+    display: none;
+}
+.symckr_letters{
+    overflow: auto;
+}
+.symckr_letters ul li {
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: teal;
+}
+.symckr_letters ul li a {
+    text-decoration: none;
+    color: white;
+}
+.lists_diss{
+    display: none;
+}
+.info{
+    display: none;
+    padding: 10px;
+    transition: all 1s;
+}
+.info h4{
+   /* color: #fbca1b;*/
+    color: #00868d;
+}
+.info:hover{
+  
+    transform: scale(1.1,1.1);
+}
+/* start symckr_body*/
+.symckr_body{
+    overflow: auto;
+    display: none;
+}
+.symckr_body ul li{
+    margin: auto;
+    float: right;
+    width: 150px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: teal;
+    border-radius: 50%;
+    
+}
+.symckr_body ul li a{
+    text-decoration: none;
+    color: white;
+   
+}
+/* start symckr body info*/
+.sym_body_info{
+    display: none;
+}
+.sym_body_info h4{
+    color: #00868d;
+}
+.sym_body_info p{
+    color: gray;
+}
+
+.body_info{
+   background-color: antiquewhite;
+    padding: 20px;
+    transition: all 1s;
+}
+.body_info:hover{  
+    transform: scale(1.1,1.1);
+}
+
+/* start symckr of drugs*/
+.sympo_input_drugs{
+    display: none;
+}
+.drugs_kind  , .drugs_diss{
+    overflow: auto;
+    display: none;
+}
+
+.drugs_kind ul li  , .drugs_diss ul li{
+    float: right;
+    padding: 20px;
+    margin: 20px;
+    background-color: teal;
+    border-radius: 10px;
+}
+.drugs_kind ul li a , .drugs_diss ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* footer */
+footer{
+    margin-top: 5px;
+    border-top: 1px dashed #ccc;
+    
+}
+footer .social i{
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: all 0.25s ;
+}
+footer .social i:hover{
+    transform: scale(1.1);
+    
+
+}
+footer .social .facebook{
+      padding: 15px 18px;
+    background-color: #6982b8;
+}
+footer .social .google-plus{
+      padding: 15px 13px;
+    background-color: #ff8a8e;
+}
+footer .social .linkedin{
+      padding: 15px;
+    background-color: #88d0e1;
+}
+footer .social .twitter{
+      padding: 15px;
+    background-color: #1b95e0;
+}
+
+.footer-menu a{
+    text-decoration:none; 
+    font-size: 16px;
+    font-weight: 800;
+    color: #666;
+    padding: 15px
+    
+}
+@media screen and (max-width:768px){
+    .footer-menu a{
+        font-size: 12px;
+        padding: 10px
+    }
+    
+}
+@media screen and (max-width:530px){
+    .footer-menu a{
+        font-size: 10px;
+        padding: 5px
+    }
+    
+}
+.footer-menu a:hover{
+    
+    color: #00868d;
+}
+footer .copyright{
+    font-size: 14px;
+    background-color: #f5f5f5;
+}
+footer .copyright .nm{
+    color: #00868d;
+    
+}
+footer .copyright .yr{
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+    margin-right: 5px;
+}
