@@ -16,7 +16,23 @@ body
     width: 230px;
     height: 80px;
     overflow: auto;
+}
+
+@media screen and (max-width:768px){
     
+    .logo-brand{
+         width: 180px;
+         height: 60px;
+    } 
+    
+}
+@media screen and (max-width:500px){
+    
+    .logo-brand{
+         width: 140px;
+         height: 50px;
+    } 
+   
     
 }
 .navbar{
@@ -62,33 +78,6 @@ body
         font-size: 50px
     }  
 }
-
-
-
-
-
-/*.health-articles .health-articles-header h3:after{
-    content: "";
-    width:80px;
-    height: 10px;
-    position: absolute;
-    bottom: 0px;
-    left: 47%;
-     border-top: 1px solid #ff305b; 
-    border-bottom: 1px solid #ff305b;
-}
-
-.health-articles .health-articles-header h3:before{
-    content: "";
-    width:160px;
-    height: 1px;
-    position: absolute;
-    bottom: 5px;
-    left: 44%;
-    background-color: #ff305b;
-}*/
-
-
 
 
 /* articles*/
