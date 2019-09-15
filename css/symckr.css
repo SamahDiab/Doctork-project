@@ -15,6 +15,28 @@ body
     
     
 }
+.input-group{
+    width: 45%;
+}
+@media screen and (max-width:768px){
+    
+    .logo-brand{
+         width: 180px;
+         height: 60px;
+    } 
+    
+}
+@media screen and (max-width:500px){
+    
+    .logo-brand{
+         width: 140px;
+         height: 50px;
+    } 
+   
+    
+}
+
+    
 .navbar{
     display: inline-block;
     width: 100%;
@@ -152,7 +174,7 @@ body
 footer{
     margin-top: 5px;
     border-top: 1px dashed #ccc;
-    
+    background-color: #f5f5f5
 }
 footer .social i{
     color: #fff;
@@ -211,7 +233,7 @@ footer .social .twitter{
 }
 footer .copyright{
     font-size: 14px;
-    background-color: #f5f5f5;
+    background-color: #f1f1f1;
 }
 footer .copyright .nm{
     color: #00868d;

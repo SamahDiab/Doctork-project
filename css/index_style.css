@@ -35,6 +35,10 @@ body
    
     
 }
+.input-group{
+    width: 45%;
+}
+    
 .navbar{
   
     border-top: 1px solid #ccc;
@@ -130,12 +134,22 @@ body
 }
 
 
-
+.news{
+    background-color: #f5f5f5;
+     
+   }
 .news .news-item-header{
     background-color: #fff;
     cursor: pointer;
 
 }
+.news .news-item-header h6{
+    color: #00868d;
+}
+.news .news-item-header p{
+    font-size: 12px;
+}
+
 
 
 
@@ -230,6 +244,7 @@ body
 footer{
     margin-top: 5px;
     border-top: 1px dashed #ccc;
+    background-color: #f5f5f5
 }
 footer .social i{
     color: #fff;
@@ -288,7 +303,7 @@ footer .social .twitter{
 }
 footer .copyright{
     font-size: 14px;
-    background-color: #f5f5f5;
+    background-color: #f1f1f1;
 }
 footer .copyright .nm{
     color: #00868d;
