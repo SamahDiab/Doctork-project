@@ -60,9 +60,10 @@ body
 /* home page */
 
 .motherhood-header{
-    height: 650px;
+    height: 500px;
     background-image: url(../images/child.jpg);
     background-size: cover;
+    background-position: center;
 }
 .motherhood-header .layer{
     width: 100%;

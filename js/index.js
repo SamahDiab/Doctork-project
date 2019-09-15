@@ -6,7 +6,7 @@ $(document).ready(function(){
 })
 
 
-
+new WOW().init(); 
 
 $(window).scroll(function(){
     let scrollTop = $(window).scrollTop();
@@ -27,8 +27,8 @@ $(window).scroll(function(){
         
     }*/
     
-
 })
+
 $("#btnUp").click(function(){
     
     $("body,html").animate({scrollTop:0},1000);
