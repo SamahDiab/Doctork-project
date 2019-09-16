@@ -22,8 +22,10 @@ $(".items_diss").click(function(){
 /* sympchkr body */
 /* start input letter*/
 $("#inputBody").click(function(){
-    $(".symckr_body").slideDown(1000 , function(){
-      $(".lists_diss").hide(1000);  
+    $(".symckr_info").hide(500 , function(){
+      $(".lists_diss").hide(500 , function(){
+          $(".symckr_body").slideDown(1000)
+      });  
     });
 })
 $(".list_body").click(function(){
@@ -36,13 +38,18 @@ $(".list_body").click(function(){
 
 $("#secondItem").click(function(){
     $(".sympo_inputs").hide(500 ,function(){
+        $(".symckr_diss").hide(1000  , function(){
      $(".sympo_input_drugs").show(1000 );    
-});
+        });
+    });
 });
 
 $("#inputFamous").click(function(){
     $(".drugs_diss").hide(1000 , function(){
-       $(".drugs_kind").slideDown(1000); 
+        $(".symckr_diss").hide(1000  , function(){
+           $(".drugs_kind").slideDown(1000);  
+        })
+
     });  
   })
   
@@ -50,4 +57,4 @@ $("#inputFamous").click(function(){
       $(".drugs_kind").hide(1000 , function(){
         $(".drugs_diss").slideDown(1000);  
       });
-  })
+  });
